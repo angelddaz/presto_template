@@ -5,9 +5,8 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
 # Requirements
 1. Presto has a few basic [requirements](https://prestodb.io/overview.html):
   * Linux or Mac OS X
-  * Java 8, 64-bit
+  * Java 8, 64-bit -- this one was the trickiest req for me
   * Python 2.4+
-  
   
 # Installation
 0. Requirements above
@@ -22,6 +21,9 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
 3. Jupyter notebook can be run with
 `jupyter notebook ~/presto/cross-db-template.ipynb`
 This notebook assumes you are running presto locally in port 8080
+4. If you would like to avoid Jupyter and query directly from the command line
+`~/presto/presto-cli` will give you a terminal if presto is already running.
+5. visiting `http://localhost:8080/` in your browser will show you a UI for presto
 
 
 # Catalogs Included
