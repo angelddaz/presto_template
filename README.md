@@ -9,3 +9,7 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
   * Linux or Mac OS X
   * Java 8, 64-bit
   * Python 2.4+
+
+# Catalogs Included
+Database connections are named Catalogs in Presto.
+There are two catalog templates included in this template; MySQL and Postgres.
