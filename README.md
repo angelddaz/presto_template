@@ -1,5 +1,5 @@
 # presto_template
-This is a blank presto single server/laptop template using presto version 0.227
+This is a blank presto single server/laptop template using presto version 0.229
 Sensitive Catalog/Connection credentials have been replaced with empty strings.
 
 # Requirements
