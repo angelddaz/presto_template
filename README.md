@@ -6,6 +6,7 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
 1. Presto has a few basic [requirements](https://prestodb.io/overview.html):
   * Linux or Mac OS X
   * Java 8, 64-bit -- this one was the trickiest req for me
+    * `sudo apt install openjdk-8-jdk openjdk-8-jre`
   * Python 2.4+
   
 # Deploying Single Presto Server 
