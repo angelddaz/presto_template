@@ -48,11 +48,17 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
    * `SHOW CATALOGS`
 6. Kill with `exit`
 
-
-# Catalogs Included
+# Materials included in repository
+### Single Server config
+Four Configuration files are held in the /etc which does not include the catalog directory which make presto work on a single computer or instance.
+  1. config.properties
+  2. jvm.config
+  3. log.properties
+  4. node.properties
+### Catalog Included
 Database connections are named Catalogs in Presto.
 There are two catalog templates included in this template; MySQL and Postgres.
-They can be found in `etc/` directory
+They can be found in `etc/catalog` directory
 
-# Jupyter Notebook Template
+### Jupyter Notebook Template
 There is a single jupyter notebook file in this repository which has all python code needed for a cross database join.
