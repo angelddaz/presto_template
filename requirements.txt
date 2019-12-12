@@ -1,1 +1,1 @@
-pip install presto-python-client
+presto-python-client
