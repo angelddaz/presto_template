@@ -18,10 +18,12 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
   * `git clone git@github.com:angelddaz/presto_template.git /tmp/presto`
 4. Move /etc/ from this repository into your presto-server folder.
   * `mv /tmp/presto/etc ~/presto/presto-server-0.229/`
-5. Run presto in the background from any directory in the command line with the following command
+5. Change 'angel' in `node.data-dir=/home/angel/presto/presto-server-0.227/data` to your presto server data dir in the following file
+  * `/presto-server-0.227/etc/node.properties : line 3 `
+6. Run presto in the background from any directory in the command line with the following command
   * `~/presto/presto-server-0.229/bin/launcher start`
-6. Visit http://localhost:8080/ in your browser will show you a UI for presto
-7. Kill presto with
+7. Visit http://localhost:8080/ in your browser will show you a UI for presto
+8. Kill presto with
   * `~/presto/presto-server-0.229/bin/launcher kill`
 
 
