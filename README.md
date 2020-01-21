@@ -18,8 +18,8 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
   * `git clone git@github.com:angelddaz/presto_template.git /tmp/presto`
 4. Move /etc/ from this repository into your presto-server folder.
   * `mv /tmp/presto/etc ~/presto/presto-server-0.229/`
-5. Change 'angel' in `node.data-dir=/home/angel/presto/presto-server-0.227/data` to your presto server data dir in the following file
-  * `/presto-server-0.227/etc/node.properties : line 3 `
+5. Change 'angel' in `node.data-dir=/home/angel/presto/presto-server-0.229/data` to your presto server data dir in the following file
+  * `/presto-server-0.229/etc/node.properties : line 3 `
 6. Run presto in the background from any directory in the command line with the following command
   * `~/presto/presto-server-0.229/bin/launcher start`
 7. Visit http://localhost:8080/ in your browser will show you a UI for presto
@@ -31,7 +31,7 @@ Sensitive Catalog/Connection credentials have been replaced with empty strings.
 0. Complete `Deploying Single Presto Server section`
 1. Run `pip install -r /tmp/presto/requirements.txt` from the repository download above if you haven't yet.
 2. The following bash command will run presto in port 8080
-  * `~/presto/presto-server-0.227/bin/launcher run`
+  * `~/presto/presto-server-0.229/bin/launcher run`
 3. Move the template jupyter notebook from the temporary repository location and run it locally with the following commands
   * `mv ~/tmp/presto/cross-db-template.ipynb ~/presto/`
   * `jupyter notebook ~/presto/cross-db-template.ipynb &`
